@@ -1,0 +1,10 @@
+@host=http://localhost:5199
+
+POST {{host}}/items
+Content-Type: application/json
+
+{
+    "name" : "item 4",
+    "description" : "item number 4",
+    "price" : 0
+}

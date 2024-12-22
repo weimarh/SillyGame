@@ -1,0 +1,10 @@
+@host=http://localhost:5199
+
+PUT {{host}}/items/1af7acd9-b294-4068-8ecc-25feb83d6c3b
+Content-Type: application/json
+
+{
+    "name" : "item 1",
+    "description" : "item number 1",
+    "price" : 4
+}
